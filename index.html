@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="JuriCalc CR — La app para abogados y notarios de Costa Rica. Calcula honorarios notariales, judiciales, corporativos y laborales con el Decreto N° 41457-JP.">
+  <meta name="robots" content="index, follow">
+  <title>JuriCalc CR — Cálculos de Honorarios Profesionales</title>
+  <link rel="icon" href="c9e28e2d68c1eed47891118cc5fe13ea.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header>
+    <nav class="nav" id="mainNav" role="navigation" aria-label="Navegación principal">
+      <div class="nav__inner">
+        <a href="index.html" class="nav__brand" aria-label="JuriCalc CR - Inicio">
+          <img src="c9e28e2d68c1eed47891118cc5fe13ea.jpg" alt="Logo JuriCalc CR" class="nav__logo">
+          <span class="nav__name">JuriCalc CR</span>
+        </a>
+        <ul class="nav__links" id="navLinks">
+          <li><a href="index.html" class="active" id="nav-inicio">Inicio</a></li>
+          <li><a href="privacy.html" id="nav-privacy">Política de Privacidad</a></li>
+        </ul>
+        <button class="nav__hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false" aria-controls="navLinks">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="inicio" aria-label="Sección principal">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="hero__overlay" aria-hidden="true"></div>
+      <div class="hero__content fade-in">
+        <div class="hero__eyebrow">
+          <span>&#9878;</span> Costa Rica &mdash; Decreto N° 41457-JP
+        </div>
+        <h1 class="hero__title">
+          Optimice sus cálculos de honorarios legales con<br><span>JuriCalc CR</span>
+        </h1>
+        <p class="hero__subtitle">
+          Cálculo de Honorarios Notariales, Abogacía, Multas, Intereses y mucho más.
+        </p>
+        <p class="hero__subtitle-2">
+          Módulos notarial, judicial, sociedades y laboral adaptados estrictamente a la normativa costarricense vigente.
+        </p>
+        <a href="https://play.google.com/store/apps/details?id=com.juricalc.costarica&hl=es_419"
+           target="_blank" rel="noopener" class="hero__cta" id="btn-google-play">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M3 20.5v-17c0-.83.94-1.3 1.6-.8l14 8.5c.6.36.6 1.24 0 1.6l-14 8.5c-.66.5-1.6.03-1.6-.8z"/>
+          </svg>
+          Descargar en Google Play
+        </a>
+      </div>
+    </section>
+
+    <!-- ===== MODULES ===== -->
+    <section class="section section--dark" id="modulos" aria-labelledby="modules-title">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-header__label">Módulos</span>
+          <h2 class="section-header__title" id="modules-title">Funciones Avanzadas para el Profesional.</h2>
+          <p class="section-header__desc">
+            Generación de PDF, compartir por WhatsApp, buscador de aranceles, cálculo de honorarios profesionales, calculadora de multas e intereses, y más.
+          </p>
+        </div>
+        <div class="modules-grid" id="modules-grid">
+          <article class="module-card fade-in">
+            <img src="assets/Notarial.png" alt="Módulo Notarial" class="module-card__image">
+            <h3 class="module-card__title">Módulo Notarial</h3>
+            <p class="module-card__desc">Cálculos para traspasos, hipotecas y más.</p>
+          </article>
+          <article class="module-card fade-in">
+            <img src="assets/Judicial.png" alt="Módulo Judicial" class="module-card__image">
+            <h3 class="module-card__title">Módulo Judicial</h3>
+            <p class="module-card__desc">Procesos estimables, sucesorios y divorcios.</p>
+          </article>
+          <article class="module-card fade-in">
+            <img src="assets/Sociedades.png" alt="Módulo Sociedades" class="module-card__image">
+            <h3 class="module-card__title">Módulo Sociedades</h3>
+            <p class="module-card__desc">Constitución de empresas, reformas y timbres.</p>
+          </article>
+          <article class="module-card fade-in">
+            <img src="assets/Laboral.png" alt="Módulo Laborales" class="module-card__image">
+            <h3 class="module-card__title">Módulo Laborales</h3>
+            <p class="module-card__desc">Liquidaciones, aguinaldos y cisantía.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== VIDEOS ===== -->
+    <section class="section" id="videos" aria-labelledby="videos-title">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-header__label">Demos</span>
+          <h2 class="section-header__title" id="videos-title">Vea JuriCalc CR en Acción</h2>
+          <p class="section-header__desc">Videos demostrativos de los principales módulos de cálculo.</p>
+        </div>
+        <div class="videos-grid" id="videos-grid">
+          <article class="video-card fade-in">
+            <div class="video-card__embed">
+              <iframe
+                src="https://www.youtube.com/embed/xO-pte_v2f0"
+                title="JuriCalc CR - Módulo Notarial"
+                aria-label="Video YouTube: Módulo Notarial"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                loading="lazy"
+                frameborder="0">
+              </iframe>
+            </div>
+            <div class="video-card__body">
+              <p class="video-card__label">Demo &mdash; Módulo</p>
+              <h3 class="video-card__title">Notarial</h3>
+            </div>
+          </article>
+          <article class="video-card fade-in">
+            <div class="video-card__embed">
+              <iframe
+                src="https://www.youtube.com/embed/XErM6P9roa8"
+                title="JuriCalc CR - Módulo Judicial"
+                aria-label="Video YouTube: Módulo Judicial"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                loading="lazy"
+                frameborder="0">
+              </iframe>
+            </div>
+            <div class="video-card__body">
+              <p class="video-card__label">Demo &mdash; Módulo</p>
+              <h3 class="video-card__title">Judicial</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SCREENSHOTS CAROUSEL ===== -->
+    <section class="section section--dark carousel-section" id="capturas" aria-labelledby="screenshots-title">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-header__label">Capturas de Pantalla</span>
+          <h2 class="section-header__title" id="screenshots-title">Con un Diseño Moderno</h2>
+          <p class="section-header__desc">
+            Interfaz intuitiva y fácil de usar en dos modos &ldquo;Claro&rdquo; y &ldquo;Oscuro&rdquo;.
+          </p>
+        </div>
+        <div class="fade-in">
+          <div class="carousel" id="carousel" role="region" aria-label="Galería de capturas de pantalla" aria-live="polite">
+            <button class="carousel__btn" id="carousel-prev" aria-label="Anterior captura de pantalla">&#8592;</button>
+            <div class="carousel__track-wrapper">
+              <div class="carousel__track" id="carouselTrack">
+                <div class="carousel__slide" style="background-image:url('assets/Claro.png')" role="img" aria-label="Captura de pantalla - Modo Claro"></div>
+                <div class="carousel__slide" style="background-image:url('assets/Oscuro.png')" role="img" aria-label="Captura de pantalla - Modo Oscuro"></div>
+                <div class="carousel__slide" style="background-image:url('assets/Calculo.png')" role="img" aria-label="Captura de pantalla - Cálculo"></div>
+                <div class="carousel__slide" style="background-image:url('assets/Calculo 2.png')" role="img" aria-label="Captura de pantalla - Cálculo 2"></div>
+                <div class="carousel__slide" style="background-image:url('assets/Calculo 3.png')" role="img" aria-label="Captura de pantalla - Cálculo 3"></div>
+                <div class="carousel__slide" style="background-image:url('assets/Calculo 4.png')" role="img" aria-label="Captura de pantalla - Cálculo 4"></div>
+                <div class="carousel__slide" style="background-image:url('assets/Herramientas.png')" role="img" aria-label="Captura de pantalla - Herramientas"></div>
+                <div class="carousel__slide" style="background-image:url('assets/Perfil.png')" role="img" aria-label="Captura de pantalla - Perfil"></div>
+                <div class="carousel__slide" style="background-image:url('assets/Perfil 2.png')" role="img" aria-label="Captura de pantalla - Perfil 2"></div>
+              </div>
+            </div>
+            <button class="carousel__btn" id="carousel-next" aria-label="Siguiente captura de pantalla">&#8594;</button>
+          </div>
+          <div class="carousel__dots" id="carouselDots" role="tablist" aria-label="Indicadores de diapositivas"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FEATURES ===== -->
+    <section class="section" id="caracteristicas" aria-labelledby="features-title">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-header__label">Características</span>
+          <h2 class="section-header__title" id="features-title">Por qué elegir JuriCalc CR</h2>
+        </div>
+        <div class="features-grid" id="features-grid">
+          <article class="feature-card fade-in">
+            <div class="feature-card__icon">&#128274;</div>
+            <h3 class="feature-card__title">Privacidad Absoluta y Soporte Offline</h3>
+            <p class="feature-card__desc">
+              Procesamiento 100% local (sin datos en la nube) y trabajo sin internet. Su información nunca sale de su dispositivo.
+            </p>
+          </article>
+          <article class="feature-card fade-in">
+            <div class="feature-card__icon">&#128196;</div>
+            <h3 class="feature-card__title">Generación de PDF y WhatsApp</h3>
+            <p class="feature-card__desc">
+              Genere proformas profesionales en PDF y compártalas directamente por WhatsApp o correo electrónico.
+            </p>
+          </article>
+          <article class="feature-card fade-in">
+            <div class="feature-card__icon">&#9878;</div>
+            <h3 class="feature-card__title">Normativa Actualizada</h3>
+            <p class="feature-card__desc">
+              Tasas oficiales del BCCR, tablas de Hacienda y soporte a reformas arancelarias del Decreto N° 41457-JP.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FAQ ACCORDION ===== -->
+    <section class="section section--dark" id="normativa" aria-labelledby="faq-title">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-header__label">Normativa</span>
+          <h2 class="section-header__title" id="faq-title">¿Bajo qué normativa se realizan los cálculos?</h2>
+        </div>
+        <div class="accordion fade-in" id="accordion" role="list">
+          <div class="accordion__item open" role="listitem">
+            <button class="accordion__header" aria-expanded="true" id="acc-btn-1" aria-controls="acc-body-1">
+              Decreto Ejecutivo N° 41457-JP
+              <span class="accordion__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion__body" id="acc-body-1" role="region" aria-labelledby="acc-btn-1">
+              <div class="accordion__body-inner">
+                <p>
+                  Todos los cálculos de honorarios profesionales, timbres registrales e impuestos incorporados en
+                  <strong>JuriCalc CR</strong> se ejecutan en estricto cumplimiento con el
+                  <strong>Decreto Ejecutivo N° 41457-JP</strong> &mdash;
+                  <em>Arancel de Honorarios por Servicios Profesionales de Abogacía y Notariado</em>.
+                </p>
+                <p>Para garantizar la exactitud de sus proformas y evitar contingencias legales o fiscales, la plataforma integra:</p>
+                <ul>
+                  <li><strong>Tasas Oficiales del BCCR:</strong> Actualización automática y precisa para el cálculo de intereses moratorios basada en la tasa legal del Banco Central de Costa Rica.</li>
+                  <li><strong>Tablas de Hacienda:</strong> Desglose exacto de los impuestos de traspaso y multas vigentes aplicables a bienes muebles, inmuebles y sociedades.</li>
+                  <li><strong>Soporte de Reformas:</strong> Monitoreo constante de variaciones registrales para asegurar que cada cálculo refleje la normativa vigente al día de hoy.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section" id="contacto" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-header__label">Contacto</span>
+          <h2 class="section-header__title" id="contact-title">Soporte Técnico y Asistencia</h2>
+        </div>
+        <div class="contact-grid fade-in" id="contact-grid">
+          <div class="contact-card">
+            <span class="contact-card__icon">&#9993;&#65039;</span>
+            <span class="contact-card__label">Email</span>
+            <div class="contact-card__value">
+              <a href="mailto:joscobra@gmail.com" id="contact-email">joscobra@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-card">
+            <span class="contact-card__icon">&#128222;</span>
+            <span class="contact-card__label">Teléfono</span>
+            <div class="contact-card__value">
+              <a href="tel:+50661431535" id="contact-phone">(506) 61431535</a>
+            </div>
+          </div>
+          <div class="contact-card">
+            <span class="contact-card__icon">&#128205;</span>
+            <span class="contact-card__label">Ubicación</span>
+            <div class="contact-card__value">San Isidro, Pérez Zeledón, San José, Costa Rica</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__brand">
+      <img src="c9e28e2d68c1eed47891118cc5fe13ea.jpg" alt="Logo JuriCalc CR" class="footer__logo">
+      <span class="footer__name">JuriCalc CR</span>
+    </div>
+    <ul class="footer__links">
+      <li><a href="index.html" id="footer-inicio">Inicio</a></li>
+      <li><a href="privacy.html" id="footer-privacy">Política de Privacidad</a></li>
+    </ul>
+    <p class="footer__location">San Isidro, Pérez Zeledón, San José, Costa Rica.</p>
+    <p class="footer__copy">&copy; JuriCalc CR, 2026. Todos los derechos reservados.</p>
+  </footer>
+
+  <script>
+    // ---- Navigation scroll effect ----
+    const nav = document.getElementById('mainNav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 20);
+    }, { passive: true });
+
+    // ---- Mobile hamburger ----
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+    hamburger.addEventListener('click', () => {
+      const isOpen = navLinks.classList.toggle('open');
+      hamburger.classList.toggle('open', isOpen);
+      hamburger.setAttribute('aria-expanded', String(isOpen));
+    });
+    // Close menu on link click
+    navLinks.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        hamburger.classList.remove('open');
+        hamburger.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    // ---- Accordion ----
+    document.querySelectorAll('.accordion__header').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = btn.closest('.accordion__item');
+        const body = item.querySelector('.accordion__body');
+        const isOpen = item.classList.toggle('open');
+        btn.setAttribute('aria-expanded', String(isOpen));
+        body.style.maxHeight = isOpen ? body.scrollHeight + 'px' : '0';
+      });
+    });
+    // Init open items
+    document.querySelectorAll('.accordion__item.open').forEach(item => {
+      const body = item.querySelector('.accordion__body');
+      body.style.maxHeight = body.scrollHeight + 'px';
+    });
+
+    // ---- Carousel ----
+    const track = document.getElementById('carouselTrack');
+    const dotsContainer = document.getElementById('carouselDots');
+    const slides = track ? track.querySelectorAll('.carousel__slide') : [];
+    let currentSlide = 0;
+    let autoInterval;
+
+    function buildDots() {
+      slides.forEach((_, i) => {
+        const dot = document.createElement('button');
+        dot.className = 'carousel__dot' + (i === 0 ? ' active' : '');
+        dot.setAttribute('aria-label', 'Ir a diapositiva ' + (i + 1));
+        dot.setAttribute('role', 'tab');
+        dot.addEventListener('click', () => goTo(i));
+        dotsContainer.appendChild(dot);
+      });
+    }
+
+    function updateDots() {
+      dotsContainer.querySelectorAll('.carousel__dot').forEach((d, i) => {
+        d.classList.toggle('active', i === currentSlide);
+      });
+    }
+
+    function goTo(idx) {
+      currentSlide = (idx + slides.length) % slides.length;
+      track.style.transform = 'translateX(-' + (currentSlide * 100) + '%)';
+      updateDots();
+    }
+
+    function startAuto() {
+      autoInterval = setInterval(() => goTo(currentSlide + 1), 3800);
+    }
+    function stopAuto() { clearInterval(autoInterval); }
+
+    if (slides.length > 0) {
+      buildDots();
+      document.getElementById('carousel-prev').addEventListener('click', () => { stopAuto(); goTo(currentSlide - 1); startAuto(); });
+      document.getElementById('carousel-next').addEventListener('click', () => { stopAuto(); goTo(currentSlide + 1); startAuto(); });
+      startAuto();
+    }
+
+    // ---- Scroll fade-in ----
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>
