@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.juricalc.costarica",
+      "sha256_cert_fingerprints": [
+        "70:7E:0B:1F:87:DB:24:55:0A:C3:80:7C:49:26:4D:20:56:F9:51:D4:0C:DE:B0:FE:09:3F:25:03:26:B9:4B:1E"
+      ]
+    }
+  }
+]
