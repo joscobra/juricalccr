@@ -160,8 +160,29 @@ main { padding-top: var(--nav-h); }
 }
 .hero__title { color: var(--clr-white); margin-bottom: 1.25rem; text-shadow: 0 2px 16px rgba(0,0,0,0.6); }
 .hero__title span {
-  background: linear-gradient(90deg, var(--clr-accent-2), var(--clr-gold-light));
+  position: relative;
+  display: inline-block;
+}
+.hero__title span::before {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: none;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.8), 0 0 16px rgba(74, 158, 237, 0.35), 0 0 28px rgba(232, 197, 122, 0.25);
+  z-index: 0;
+  pointer-events: none;
+  color: transparent;
+}
+.hero__title span::after {
+  content: attr(data-text);
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(90deg, #5cb0ff, #f0d69a);
   -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+  z-index: 1;
 }
 .hero__subtitle { font-size: clamp(1rem, 2vw, 1.2rem); color: rgba(230,237,243,0.85); max-width: 640px; margin: 0 auto 0.75rem; line-height: 1.7; }
 .hero__subtitle-2 { font-size: 0.95rem; color: rgba(230,237,243,0.65); max-width: 600px; margin: 0 auto 2.5rem; font-style: italic; }
